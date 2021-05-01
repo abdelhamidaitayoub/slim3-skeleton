@@ -39,7 +39,7 @@ $container['db'] = function($container) use ($capsule) {
 
 // Register component on container
 $container['view'] = function ($container) {
-    $view = new Slim\Views\Twig(__DIR__ . '/view', [
+    $view = new Slim\Views\Twig(__DIR__ . '/views', [
         'cache' => false,
     ]);
 

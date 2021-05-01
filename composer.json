@@ -1,5 +1,5 @@
 {
-  "name": "rrr3d/php-mvc",
+  "name": "rrr3d/slim3-skeleton",
   "type": "project",
   "description": "Slim PHP Micro-framework.",
   "license": "MIT",
@@ -10,9 +10,8 @@
     }
   ],
   "scripts": {
-    "start": [
-      "php -S localhost:8080 -t public public/index.php"
-    ]
+    "start": "php -S localhost:8080 -t public public/index.php",
+    "env": "cp .env.example .env"
   },
   "require": {
     "filp/whoops": "^2.12",
@@ -35,10 +34,10 @@
   },
   "autoload": {
     "psr-4": {
-      "Controller\\": "controller/",
-      "Model\\": "model/",
+      "Controller\\": "controllers/",
+      "Model\\": "models/",
       "Routes\\": "routes/",
-      "View\\": "view/"
+      "View\\": "views/"
     }
   }
 }
