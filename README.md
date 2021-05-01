@@ -2,9 +2,9 @@
 # Integrate Slim micro-framework
 
   - [x] PSR-4 autoloading
-  - [ ] PSR-7 HTTP Requests
+  - [x] PSR-7 HTTP Requests
   - [x] Routes management
-  - [x] Routes Organisation w/ group
+  - [ ] Routes Organisation w/ group
   - [ ] Error Handling
   - [ ] Secutity
   - [ ] explication of [::class](https://stackoverflow.com/questions/32448481/what-does-classnameclass-mean-in-php) keywork
@@ -12,12 +12,12 @@
 
 # MVC Pattern
 
-  - [ ] Model
-  - [ ] View
-  - [ ] Controller
+  - [x] Model
+  - [x] View
+  - [x] Controller
 
-- ORM (Object Rolational Mapping)
-- Template Engin (Twig)
+# ORM (Object Rolational Mapping)
+# Template Engin (Twig)
 
 #TODO
 
